@@ -1,0 +1,14 @@
+{
+  "name": "minecraft-chatgpt-bot",
+  "version": "1.0.0",
+  "description": "Minecraft bot controlled by GPT-4 via WebSocket",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.5.0",
+    "ws": "^8.17.0",
+    "dotenv": "^16.4.5"
+  }
+}
